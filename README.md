@@ -31,4 +31,14 @@ Desenvolvido por **Ellen Vitorino** como parte de um mini sistema web utilizando
 
 ---
 
-## 📁 Estrutura do Projeto
+### 2. Configurar conexão
+Edite `config/config.php`:
+```php
+return array(
+    'db_host' => 'localhost',
+    'db_port' => '5432',
+    'db_name' => 'sistema_ellen',
+    'db_user' => 'postgres',
+    'db_password' => 'sua_senha'
+);
+
